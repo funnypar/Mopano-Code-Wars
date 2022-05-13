@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300&family=Grand+Hotel&display=swap");
+:root {
+  --ff-title: "Catamaran", sans-serif;
+  --ff-name: "Grand Hotel";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom right, #f86624, #f9c80e) center/cover
+    no-repeat fixed;
+  font-family: var(--ff-title);
+}
+h1 {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.25rem;
+  position: absolute;
+  top: 50%;
+  min-width: 100%;
+  text-align: center;
+}
+h2 {
+  min-width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 30%;
+  font-family: var(--ff-name);
+  font-size: 2rem;
+}
+h4 {
+  min-width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 7%;
+}
